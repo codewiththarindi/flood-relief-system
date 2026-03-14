@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Flood Disaster Management System</title>
+
+<style>
+body{
+font-family: Arial;
+margin:0;
+background:#f4f6f8;
+}
+
+header{
+background:#0a4c8b;
+color:white;
+padding:20px;
+text-align:center;
+}
+
+nav{
+background:#06345f;
+padding:10px;
+text-align:center;
+}
+
+nav a{
+color:white;
+margin:15px;
+text-decoration:none;
+font-weight:bold;
+}
+
+nav a:hover{
+color:yellow;
+}
+
+.container{
+padding:30px;
+}
+
+.card{
+background:white;
+padding:20px;
+margin:20px 0;
+border-radius:8px;
+box-shadow:0 0 5px gray;
+}
+
+footer{
+background:#0a4c8b;
+color:white;
+text-align:center;
+padding:15px;
+}
+</style>
+
+</head>
+
+<body>
+
+<header>
+<h1>Flood Disaster Management System</h1>
+<p>Emergency Information & Disaster Response</p>
+</header>
+
+<nav>
+<a href="#">Home</a>
+<a href="#">Flood Alerts</a>
+<a href="#">Report Flood</a>
+<a href="#">Relief Requests</a>
+<a href="#">Emergency Contacts</a>
+</nav>
+
+<div class="container">
+
+<div class="card">
+<h2>Current Flood Alerts</h2>
+<p>Check real-time flood warnings and river water levels.</p>
+<ul>
+<li>Kelani River – Warning Level</li>
+<li>Kalu River – Danger Level</li>
+<li>Gin River – Normal Level</li>
+</ul>
+</div>
+
+<div class="card">
+<h2>Report a Flood Incident</h2>
+<form>
+<label>Name</label><br>
+<input type="text" placeholder="Enter your name"><br><br>
+
+<label>Location</label><br>
+<input type="text" placeholder="Enter affected area"><br><br>
+
+<label>Description</label><br>
+<textarea rows="4"></textarea><br><br>
+
+<button type="submit">Submit Report</button>
+</form>
+</div>
+
+<div class="card">
+<h2>Relief Request</h2>
+<p>If you are affected by flooding, request emergency supplies.</p>
+
+<form>
+<label>Required Items</label><br>
+<select>
+<option>Food</option>
+<option>Water</option>
+<option>Medicine</option>
+<option>Rescue Boat</option>
+</select><br><br>
+
+<label>People Affected</label><br>
+<input type="number"><br><br>
+
+<button>Request Help</button>
+</form>
+</div>
+
+<div class="card">
+<h2>Emergency Contacts</h2>
+<ul>
+<li>Disaster Management Centre: 117</li>
+<li>Ambulance Service: 1990</li>
+<li>Police: 119</li>
+<li>Fire Brigade: 110</li>
+</ul>
+</div>
+
+</div>
+
+<footer>
+<p>© 2026 Flood Disaster Management System</p>
+</footer>
+
+</body>
+</html>
